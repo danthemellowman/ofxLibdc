@@ -12,6 +12,8 @@
 	<dict>
 		<key>033119C972DFE59718092B5C52DB7E814DF74ABB</key>
 		<string>https://github.com/kylemcdonald/ofxLibdc.git</string>
+		<key>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</key>
+		<string>https://github.com/openframeworks/openFrameworks.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>example/ofxLibdcExample.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>033119C972DFE59718092B5C52DB7E814DF74ABB</key>
 		<string>../../..</string>
+		<key>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</key>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/kylemcdonald/ofxLibdc.git</string>
@@ -28,6 +32,14 @@
 	<string>033119C972DFE59718092B5C52DB7E814DF74ABB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2DE9C8846D9375EAACFABA8963120E8E7719BAF5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>..</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

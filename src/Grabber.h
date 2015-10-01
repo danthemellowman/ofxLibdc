@@ -21,22 +21,23 @@ namespace ofxLibdc {
 
 class Grabber : public Camera, public ofBaseVideo {
 public:
+    
 	Grabber();
     ~Grabber();
 	ofTexture& getTextureReference();
 	void setUseTexture(bool useTexture);
-	unsigned char* getPixels();
+//    ofPixels & getPixels();
 	ofImage& getBuffer();
 	void update();
-	void grabFrame();
+	void grabFrame() ;
 	void draw(float x, float y);
 	void draw(float x, float y, float w, float h);
 	float getWidth();
 	float getHeight();
-    bool isFrameNew();
+    bool isFrameNew() const;
 	void close();
-    ofPixels& getPixelsRef();
-//    const ofPixels& getPixelsRef() const;
+    ofPixels& getPixels();
+    const ofPixels& getPixels() const;
     
     bool isInitialized() const {return true;}
     bool setPixelFormat(ofPixelFormat pixelFormat) {}
